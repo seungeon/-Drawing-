@@ -3,7 +3,7 @@ function setup() {
   background(0);
   stroke(255);
   noFill();
-  line(10, 10, 90, 10);
-    rect(20, 20, 80, 50);
-    ellipse(50, 50, 50, 50);
+  line(4, 10, 90, 10);
+    rect(40, 20, 80, 150);
+    ellipse(90, 40, 150, 150);
 }
