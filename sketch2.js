@@ -4,7 +4,6 @@ function setup() {
   stroke(255);
   fillstyle="#000000";
 
-  context.fillStyle= "#FF8C00"
-  context.fllRect(5,4,13,4)
-  context.fllRect(4,5,5,6)
+  Rect(5,4,13,4)
+
 }
