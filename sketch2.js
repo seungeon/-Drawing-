@@ -1,15 +1,10 @@
 function setup() {
-  createCanvas(500, 420);
-  background(0);
+  createCanvas(640, 480);
+  background(0,255,255);
   stroke(255);
-}
+  noFill();
 
-function draw() {
-  var ctx = document.getElementById('canvas').getContext('2d');
-
-  ctx.fillStyle = "rgb(200,0,0)";
-  ctx.fillRect(10, 10, 55, 50);
-
-  ctx.fillStyle = "rgba(0, 0, 200, 0.5)";
-  ctx.fillRect(30, 30, 55, 50);
+  line(10, 10, 90, 10); // x1, y1, x2, y2
+    rect(20, 20, 80, 50); // x, y, width, height
+    ellipse(50, 50, 50, 50); // centerX, centerY, width, height
 }
