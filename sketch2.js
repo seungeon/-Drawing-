@@ -3,8 +3,10 @@ function setup() {
   background(0,255,255);
   stroke(255);
 
- // sets top left location points x,y and then width and height
-  line(10, 10, 90, 10); // x1, y1, x2, y2
+
     rect(20, 20, 80, 50); // x, y, width, height
-    ellipse(50, 50, 50, 50); // centerX, centerY, width, height
+    rect(60,20,120,20);
+    rect(50,30,130,30);
+    rect(50,40,130,40);
+   
 }
