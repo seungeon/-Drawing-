@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+<style>
+#myCanvas{
+	width:500px;
+	height:420px;
+	border:1px dotted red;
+
+}
+
+</style>
+</head>
+<body>
+
+<canvas id="myCanvas"></canvas>
+<script>
+
+var canvas= doctument.getElementByid("myCanvas");
+var context=canvas.getContext("2d");
+
+context.beginPath();
+context.rect(60,20,120,20);
+context.rect(50,30,130,30);
+context.rect(50,50,90,60);
+context.rect(110,50,120,70);
+context.rect(50,60,50,90);
+context.rect(60,80,70,90);
+context.rect(70,60,80,70);
+context.rect(70,140,130,150);
+
+context.fillStyle="black";
+context.fill();//
+
+</script>
+
+</body>
+</html>
