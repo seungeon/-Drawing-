@@ -3,12 +3,8 @@ function setup() {
   background(0,255,255);
   stroke(255);
 
-
-    rect(20, 20, 80, 50); // x, y, width, height
-    rect(60,20,120,20);
-    rect(50,30,130,30);
-    rect(50,40,130,40);
-    rect(30,140,50,160);
-    rect(120,110,140,120);
+  var r1=new Rect(2,10,50,50,"red");
+  var s1=new Rect(60,10,50,50,"blue");
+  var oval1=new oval(200,30,20,2.0,1.0,"teal");
    
 }
