@@ -5,7 +5,7 @@ function setup() {
 
 //black
 
-fill(0,0,0)
+fill(0,0,0);
 
  rect(80,150,90,160);
  rect(100.150.110.160);
