@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<style>
+#myCanvas{
+	width:500px;
+	height:420px;
+	border:1px dotted red;
+
+}
+
+</style>
+</head>
+<body>
+
+<canvas id="myCanvas"></canvas>
+<script>
+
+vas canvas=doctument.getElementByid("myCanvas")
