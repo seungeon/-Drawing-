@@ -1,12 +1,15 @@
 function setup() {
-  createCanvas(500, 420);
-  background(155);
-  stroke(0);
+  createCanvas(640, 480);
+  background(0,255,0);
 
-//black
+  stroke(255,0,0);
 
-fill(0,0,0);
+  line(4, 10, 90, 10);
 
+  fill(0)
+    rect(20, 20, 80, 50);
+
+    fill(255,0,0)
  rect(80,150,90,160);
  rect(100.150.110.160);
  rect(60,20,120,20);
